@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="column-"] {
+    float: left;
+    padding: 10px;
+}
+
+
+
+.header-here{
+
+	background-color: black;
+	height: 170px;
+}
+
+.row-small{
+	height: 30px;
+	background-color: darkgrey;
+	color: white;
+}
+
+.membership{
+
+
+}
+li{
+	display: inline-block;
+	float: right;
+	text-align: right;
+}
+
+img{
+	height: 100px;
+	float: right;
+}
+
+
+#search{
+
+	height: 45px;
+	margin-top: 40px;
+	width: 80%;
+	margin-right: 0;
+}
+
+#magnifying-glass{
+	height: 45px;
+	width: 10%;
+	margin-left: 0;
+}
+
+
+[class*="column-"] {
+    width: 100%;
+}
+
+
+.container{
+	margin-top: 10px;
+}
+
+.left-container{
+
+	background-image: url(../images/zebra-stripes.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.right-container{
+
+	background-image: url(../images/zebra-stripes.jpg);
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+
+}
+
+/* For tablets: ______________________________________________________________________________________*/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+
+    .column-s-1 {width: 8.33%;}
+    .column-s-2 {width: 16.66%;}
+    .column-s-3 {width: 25%;}
+    .column-s-4 {width: 33.33%;}
+    .column-s-5 {width: 41.66%;}
+    .column-s-6 {width: 50%;}
+    .column-s-7 {width: 58.33%;}
+    .column-s-8 {width: 66.66%;}
+    .column-s-9 {width: 75%;}
+    .column-s-10 {width: 83.33%;}
+    .column-s-11 {width: 91.66%;}
+    .column-s-12 {width: 100%;}
+}
+
+/* For desktop: __________________________________________________________________________________________*/
+
+@media only screen and (min-width: 961px) and (max-width: 2000px){
+
+
+    .column-1 {width: 8.33%;}
+    .column-2 {width: 16.66%;}
+    .column-3 {width: 25%;}
+    .column-4 {width: 33.33%;}
+    .column-5 {width: 41.66%;}
+    .column-6 {width: 50%;}
+    .column-7 {width: 58.33%;}
+    .column-8 {width: 66.66%;}
+    .column-9 {width: 75%;}
+    .column-10 {width: 83.33%;}
+    .column-11 {width: 91.66%;}
+    .column-12 {width: 100%;}
