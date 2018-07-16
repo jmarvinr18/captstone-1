@@ -5,6 +5,11 @@
    
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: red;
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -123,6 +128,8 @@
 
 .container-demo{
     margin-top: 10px;
+    margin-left: 10px;
+
 }
 
 .left-container{
@@ -172,7 +179,7 @@
 
 .container-items{
 
-    height: auto;
+    min-height: auto;
 
     margin-left: 50px;
     margin-right: 40px;
@@ -316,6 +323,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: #D3CDD7;
 }
 
 .overlay {
@@ -373,7 +381,7 @@ body {
 
 .categories{
 
-    min-height: 300px;
+    min-height: 500px;
 
     margin-left: 50px;
     margin-right: 40px;
@@ -381,17 +389,35 @@ body {
 }
 
 .categories-items{
-    height: 50%;
-    background-color: #D3CDD7;
+    min-height: 100%;
+    /*background-color: #D3CDD7;*/
     /*margin: 10px 10px 10px 10px;*/
+    margin-bottom: 0;
 }
 .categories-items > .left-categories > ul > a > li{
     list-style: none;
     margin-left: 10px;
+    border-bottom: 1px solid rgba(220,222,227,.7);
 
 
 }
 
+.left-categories > ul > a{
+    min-height: 100%;
+
+}
+
+.categories-items > .center-categories > ul > a > li{
+    list-style: none;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(220,222,227,.7);
+
+}
+
+.center-categories > img{
+    height: 100%;
+    width: 100%;
+}
 
 .categories-items > ul {
     width: 200px;
