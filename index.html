@@ -8,6 +8,7 @@
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,35 +20,49 @@
 
 
 
-		<nav class="header-here">
+		<nav class="header">
 
-			<div class="row-small">
-				<div class="column-6 column-s-3">
+			<div class="row-top">
+				<div class="column-here-4 column-here-s-3 left-row-top">
+					  <p>Follow Us on  
+					  	<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" style="font-size:18px;color:blue"></i></a>
+
+					  	<a href="https://www.youtube.com" target="_blank"><i class="fa fa-instagram" style="font-size:18px;color:red"></i></a>
+
+					  	<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" style="font-size:18px;color:blue"></i>
+
+					  </p>
+				</div>
+
+				<div class="column-here-4 column-here-s-3 center-row-top">
+					   <h5>Welcome To The Z</h5>
+				</div>
+
+				<div class="column-here-4 column-here-s-3 right-row-top">
+
+					<ul class="membership">
+
+						<a href=""><li> Sign Up | </li></a>
+						<a href=""><li> Login </li></a>
+						
+
+					</ul>
 	
 				</div>
 
-				<div class="column-3 column-s-3">
-					<ul class="membership">
 
-						<a href=""><li> Login </li></a>
-						<a href=""><li> Sign Up | </li></a>
-
-					</ul>
-
-
-				</div>
 			</div> <!-- end of row -->
 
-			<div class="row">
-				<div class="column-4 column-s-4">
+			<div class="row-below">
+				<div class="column-here-4 column-here-s-4">
 
 					<div class="logo">
-					<img src="assets/images/ztrends-logo.jpg">
+						<img src="assets/images/ztrends-logo.jpg">
 					</div>
 
 				</div>
 				
-				<div class="column-5 column-s-5">
+				<div class="column-here-5 column-here-s-5">
 
 						
 						<div class="search-bar">
@@ -62,14 +77,14 @@
 		</nav> <!-- end of nav -->
 
 
-		<div class="container-mine">
+		<div class="container-demo">
 			
 				<div class="row">
-				<div class="column-4 column-s-4 left-container">
+				<div class="column-here-3 column-here-s-4 left-container">
 	
 				</div>
 
-				<div class="column-4 column-s-4 center-container">
+				<div class="column-here-6 column-here-s-4 center-container">
 
 					<div id="demo" class="carousel slide" data-ride="carousel">
 						  <ul class="carousel-indicators">
@@ -79,21 +94,21 @@
 						  </ul>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
-						      <img src="assets/images/la.jpg" alt="Los Angeles" width="100%" height="200">
+						      <img class="img-slides" src="assets/images/la.jpg" alt="Los Angeles">
 						      <div class="carousel-caption">
 						        <h3>Los Angeles</h3>
 						        <p>We had such a great time in LA!</p>
 						      </div>   
 						    </div>
 						    <div class="carousel-item">
-						      <img src="assets/images/chicago.jpg" alt="Chicago" width="100%" height="200">
+						      <img class="img-slides" src="assets/images/chicago.jpg" alt="Chicago">
 						      <div class="carousel-caption">
 						        <h3>Chicago</h3>
 						        <p>Thank you, Chicago!</p>
 						      </div>   
 						    </div>
 						    <div class="carousel-item">
-						      <img src="assets/images/ny.jpg" alt="New York" width="100%" height="200">
+						      <img class="img-slides" src="assets/images/ny.jpg" alt="New York">
 						      <div class="carousel-caption">
 						        <h3>New York</h3>
 						        <p>We love the Big Apple!</p>
@@ -110,12 +125,204 @@
 
 				</div>
 
-				<div class="column-4 column-s-4 right-container">
+				<div class="column-here-3 column-here-s-4 right-container">
 
 				</div>
 			</div> <!-- end of row -->
 
-		</div> <!-- end of container -->
+		</div> <!-- end of container-demo -->
+
+
+		<div class="container-items">
+
+			<div>
+				<h5>TOP SELLING ITEMS<span class="border-cat"></span></h5>
+				
+			</div>
+
+				<div class="row main-items">
+					<div class="column-here-3 column-here-s-4 left-main">
+
+
+
+						<img src="assets/images/tumblers.jpg">
+		
+					</div>
+
+					<div class="column-here-9 column-here-s-4 center-main">
+
+						<div class="row thumbnails">
+
+							<div class="column-here-12 column-here-s-4 item-pix">
+
+							  	<ul>
+
+								  		<div id="myNav1" class="overlay">
+								  			<img src="assets/images/la.jpg" alt="..." class="img-thumbnail">
+											<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+										</div>
+
+									<li class="overlay-content">
+										<img src="assets/images/la.jpg" alt="test" class="img-thumbnail" 
+							  					style="font-size:30px;cursor:pointer" onclick="openNav()">
+							  				
+							  		</li>
+
+								  		<div id="myNav2" class="overlay">
+								  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+											<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+										</div>
+
+									<li class="overlay-content">
+										<img src="assets/images/chicago.jpg" alt="test" class="img-thumbnail" 
+							  					style="font-size:30px;cursor:pointer" onclick="openNav()">
+							  				
+							  		</li>
+
+							  		<li>
+							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+							  		</li>
+							  		<li>
+							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+							  		</li>
+							  		<li>
+							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+							  		</li>							  		<li>
+							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+							  		</li>							  		<li>
+							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+							  		</li>
+
+		
+									
+									
+								</ul>
+
+
+							</div>
+
+						</div> <!-- end of row thumbnails -->
+
+					</div>
+
+				</div> <!-- end of row -->
+
+		</div> <!-- end of container-items -->
+
+
+		<div class="categories">
+
+			<div>
+				<h5>CATEGORIES<span class="border-cat"></span></h5>
+				
+			</div>
+
+				<div class="row categories-items">
+					<div class="column-here-3 column-here-s-4 left-categories">
+
+						<ul>
+							<a href="#"><li>Accesories</li></a>
+							<a href="#"><li>Plastic Bottle and Tumblers</li></a>
+							<a href="#"><li>Pillow</li></a>
+							<a href="#"><li>Speakers</li></a>
+							<a href="#"><li>Power Bank</li></a>
+						</ul>
+
+					<div class="column-here-9 column-here-s-4 center-categories">
+
+						<div class="row thumbnails">
+
+							<div class="column-here-12 column-here-s-4 item-pix">
+
+
+
+							</div>
+
+						</div> <!-- end of row thumbnails -->
+
+					</div>
+
+				</div> <!-- end of row -->
+			</div> <!-- end of row -->
+
+		</div> <!-- end of categories -->
+
+
+		<div class="categories">
+
+			<div>
+				<h5>CATEGORIES<span class="border-cat"></span></h5>
+				
+			</div>
+
+				<div class="row main-items">
+					<div class="column-here-3 column-here-s-4 left-main">
+
+					<div class="column-here-9 column-here-s-4 center-main">
+
+						<div class="row thumbnails">
+
+							<div class="column-here-12 column-here-s-4 item-pix">
+
+
+
+							</div>
+
+						</div> <!-- end of row thumbnails -->
+
+					</div>
+
+				</div> <!-- end of row -->
+			</div> <!-- end of row -->
+
+		</div> <!-- end of categories -->
+
+
+
+		<div class="footer">
+
+				<div class="row">
+					<div class="column-here-2 column-here-s-4 left-main">
+		
+					</div>
+
+					<div class="column-here-8 column-here-s-4 center-main">
+
+					</div>
+
+					<div class="column-here-2 column-here-s-4 right-main">
+
+					</div>
+
+				</div> <!-- end of row -->
+
+		</div> <!-- end of footer -->
+
+
+							  			 	  
+
+<!-- <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+ 		<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+  </div>
+</div> -->
+
+<!-- <h2>Fullscreen Overlay Nav Example</h2>
+<p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+<p>In this example, the navigation menu will slide in, from left to right:</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
+
+<script>
+function openNav() {
+    document.getElementById("myNav2").style.width = "100%";
+
+}
+
+function closeNav() {
+    document.getElementById("myNav2").style.width = "0%";
+}
+</script>
 
 </body>
 </html>
