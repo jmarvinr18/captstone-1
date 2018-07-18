@@ -10,16 +10,53 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	<!-- animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+	  <script type="text/javascript">function changeImage1(element) 
+	  {document.getElementById('imageReplace1').src = element;}</script>
+	  
+	  <script type="text/javascript">function changeImage2(element) 
+	  {document.getElementById('imageReplace2').src = element;}</script>
+	  
+	  <script type="text/javascript">function changeImage3(element) 
+	  {document.getElementById('imageReplace3').src = element;}</script>
+
+	  <script type="text/javascript">function changeImage4(element) 
+	  {document.getElementById('imageReplace4').src = element;}</script>
+
+	  <script type="text/javascript">function changeImage5(element) 
+	  {document.getElementById('imageReplace5').src = element;}</script>
+
+	  <script type="text/javascript">function changeImage6(element) 
+	  {document.getElementById('imageReplace6').src = element;}</script>
+
+	  <script type="text/javascript">function changeImage7(element) 
+	  {document.getElementById('imageReplace7').src = element;}</script>
+
+	  <script type="text/javascript">function changeImage8(element) 
+	  {document.getElementById('imageReplace8').src = element;}</script>
+
+	  <script type="text/javascript">function changeImage9(element) 
+	  {document.getElementById('imageReplace9').src = element;}</script>
+
+	  <script type="text/javascript">function changeImage10(element) 
+	  {document.getElementById('imageReplace10').src = element;}</script>
+
+
+	  <script type="text/javascript">function changeGalMain(element) 
+	  {document.getElementById('imageMainGallery').src = element;}</script>
+
+
 		<title></title>
 </head>
+
 <body>
-
-
-
 		<nav class="header">
 
 			<div class="row-top">
@@ -88,9 +125,9 @@
 
 					<div id="demo" class="carousel slide" data-ride="carousel">
 						  <ul class="carousel-indicators">
-						    <li data-target="#demo" data-slide-to="0" class="active"></li>
-						    <li data-target="#demo" data-slide-to="1"></li>
-						    <li data-target="#demo" data-slide-to="2"></li>
+						    <li data-target="#/demo" data-slide-to="0" class="active"></li>
+						    <li data-target="#/demo" data-slide-to="1"></li>
+						    <li data-target="#/demo" data-slide-to="2"></li>
 						  </ul>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
@@ -115,10 +152,10 @@
 						      </div>   
 						    </div>
 						  </div>
-						  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+						  <a class="carousel-control-prev" href="#/demo" data-slide="prev">
 						    <span class="carousel-control-prev-icon"></span>
 						  </a>
-						  <a class="carousel-control-next" href="#demo" data-slide="next">
+						  <a class="carousel-control-next" href="#/demo" data-slide="next">
 						    <span class="carousel-control-next-icon"></span>
 						  </a>
 					</div>
@@ -189,6 +226,14 @@
 							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
 							  		</li>							  		<li>
 							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+							  		</li>					
+
+							  		<li>
+							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+							  		</li>							  		<li>
+							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
+							  		</li>							  		<li>
+							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
 							  		</li>							  		<li>
 							  			<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
 							  		</li>
@@ -221,58 +266,144 @@
 					<div class="column-here-2 column-here-s-4 left-categories">
 
 						<ul>
-							<a href="#"><li>Accesories</li></a>
-							<a href="#"><li>Plastic Bottle and Tumblers</li></a>
-							<a href="#"><li>Pillow</li></a>
-							<a href="#"><li>Speakers</li></a>
-							<a href="#"><li>Power Bank</li></a>
-							<a href="#"><li>Power Bank</li></a>
-							<a href="#"><li>Power Bank</li></a>
-							<a href="#"><li>Power Bank</li></a>
-							<a href="#"><li>Power Bank</li></a>
+							<a href="#/" onclick="
+								changeImage1('assets/images/headsets.jpg'), 
+								changeImage2('assets/images/universal-plug.jpg'), 
+								changeImage3('assets/images/armband-cellphone-case.jpg');
+								changeImage4('assets/images/usb.jpg');
+								changeImage5('assets/images/jogging-belt-bag.jpg');
+								changeImage6('assets/images/apple-otg.jpg');
+								changeImage7('assets/images/car-cp-holder.jpg');
+								changeImage8('assets/images/waterproof-cp-case.jpg');
+								changeImage9('assets/images/selfie-stick.jpg');
+								changeImage10('assets/images/apple-earpod.jpg');
+								
+								changeGalMain('assets/images/accesories.jpg');
+								document.getElementById('changetext').innerHTML='Accessories'">
+
+								<li>Accesories</li></a>
+
+							<a href="#/" onclick="
+								changeImage1('assets/images/24-oz-brooklyn-thermal-tumbler_group.jpg'), 
+								changeImage2('assets/images/marvel-tumbler.jpg'), 
+								changeImage3('assets/images/Group-Shot-12oz-insulated-wine-tumbler_1024x1024.jpg');
+								changeImage4('assets/images/20-oz-tall-double-wall-orbit-acrylic-tumblers-pg153.jpg');
+								changeImage5('assets/images/Casablanca™-Tumbler-ATGEG-LIGTC-400x400.jpg');
+								changeImage6('assets/images/Starbucks_collage1-683x1024.jpg');
+								changeImage7('assets/images/sbux-tumbler.jpg');
+								changeImage8('assets/images/2017-06-24_LibertyBottleworks_SingleWalledTumbler.jpg');
+								changeImage9('assets/images/41l7T11oDDL.jpg');
+								changeImage10('assets/images/USA-made-mug-sports-water-bottle-32oz-BPA-free-67132AK.jpg');
+								changeGalMain('assets/images/tumblers.jpg');
+								document.getElementById('changetext').innerHTML='Tumblers'">
+
+
+							<li>Plastic Bottle and Tumblers</li></a>
+
+							<a href="#/" onclick="
+
+								changeImage1('assets/images/sea-to-summit-pillow.jpg'), 
+								changeImage2('assets/images/YourFacePillow.w710.h473.2x.jpg'), 
+								changeImage3('assets/images/full-body-pregnancy-pillow.jpg');
+								changeImage4('assets/images/SYSP1-Sound-Pillow.jpg');
+								changeImage5('assets/images/TravelNeckCover-Charcoal-WB1434579523_original.jpg');
+								changeImage6('assets/images/ostrich-pillow.jpg');
+								changeImage7('assets/images/hotel-collection-white-down-pillow-pillows-exquisite-reviews.jpg');
+								changeImage8('assets/images/71-UTAf6b5L._SL1500_.jpg');
+								changeImage9('assets/images/Tempur-Side-to-Back-pillow.jpg');
+								changeImage10('assets/images/51LunhjaNXL.jpg');
+								changeGalMain('assets/images/pillow-set-3d-model-obj-3ds-fbx-dae-mtl.jpg');
+								
+								document.getElementById('changetext').innerHTML='Pillow'">
+
+							<li>Pillow</li></a>
+
+							<a href="#/" onclick="
+
+								changeImage1('assets/images/mini-wireless-bluetooth-speaker-portable.jpg'), 
+								changeImage2('assets/images/Parlante_Bluethoot_BeatBox.jpg'), 
+								changeImage3('assets/images/ultimate-ears-wonderboom-portable-bluetooth-speaker.jpg');
+								changeImage4('assets/images/jbl-speakers-500x500.jpg');
+								changeImage5('assets/images/jbl-charge-3-bluetooth-speaker-650x489.jpg');
+								changeImage6('assets/images/6010505_rd.jpg');
+								changeImage7('assets/images/waterproof-wireless-bluetooth-speaker.jpg');
+								changeImage8('assets/images/bunny-mini-speaker.jpg');
+								changeImage9('assets/images/8Bitdo.jpg');
+								changeImage10('assets/images/retro-bluetooth-speaker.jpg');
+								changeGalMain('assets/images/maxresdefault.jpg');
+								document.getElementById('changetext').innerHTML='Speakers'">
+
+							<li>Speakers</li></a>
+
+							<a href="#/" onclick="
+
+								changeImage1('assets/images/4247312_sa.jpg'), 
+								changeImage2('assets/images/spider-power-bank.jpg'), 
+								changeImage3('assets/images/brookstone-powerbank.jpg');
+								changeImage4('assets/images/emoji-powerbank.jpg');
+								changeImage5('assets/images/wallet_charger.jpg');
+								changeImage6('assets/images/RAVPower-Portable-External-Battery-Charger.jpg');
+								changeImage7('assets/images/vooni-stone-powerbank.jpg');
+								changeImage8('assets/images/zebronics-powerbank.jpeg');
+								changeImage9('assets/images/poweradd-quick-charger.jpg');
+								changeImage10('assets/images/7,000 mAh Solar Power Bank With LED Panel Light - Blue 2-1700x1700.jpg');
+								changeGalMain('assets/images/Power-banks.jpg');
+								document.getElementById('changetext').innerHTML='Power Bank'">
+
+							<li>Power Bank</li></a>
+
+							<a href="#/" onclick="
+
+								changeImage1('assets/images/catalog_detail_image_large.jpg'), 
+								changeImage2('assets/images/Blue-Dot-Apparel-Shirt-Line.jpg'), 
+								changeImage3('assets/images/659f0125da28bad80f745c41262a1d24.jpeg');
+								changeImage4('assets/images/8-13O22V6.image.400x453.jpg');
+								changeImage5('assets/images/outdoor-research-alti-gloves-black-men-s-ski-clothing-43GA.jpg');
+								changeImage6('assets/images/bt2219st-lightblue-front.jpg');
+								changeImage7('assets/images/Nebraska.jpg');
+								changeImage8('assets/images/calypso-st-barth-womensapparel.jpg');
+								changeImage9('assets/images/103563-FACTORY-EFFEX-WOMENS-HONDA-RIDE-RED-LONG-SLEEVE-TEE.jpg');
+								changeImage10('assets/images/fashion-worship.jpg');
+								changeGalMain('assets/images/07_as_apparel_imports_507-ab.jpg');
+								document.getElementById('changetext').innerHTML='Apparel'">
+
+							<li id="Accesories">Apparel</li></a>
+							<a href="#/"><li>Pen and Papers</li></a>
+							<a href="#/"><li>Pillow</li></a>
+							<a href="#/"><li>Flashlights</li></a>
+							<a href="#/"><li>Clocks</li></a>
+							<a href="#/"><li>Clocks</li></a>
+				
 						</ul>
 					</div>
 
-					<div class="column-here-2 column-here-s-4 center-categories">
+					<div class="column-here-3 column-here-s-4 center-categories">
+
+						<div class="caption">
+							<img src="assets/images/accesories.jpg" class="cat-gallery-main" alt="Images1" id="imageMainGallery"/>
+						</div>	
+
+						<div class="top-left" id="changetext">Accessories</div>
+
+					</div>
+
+					<div class="column-here-7 column-here-s-4 right-categories">
 
 						<ul>
-							<a href="#"><li id="Accesories">Accesories</li></a>
-							<a href="#"><li>Plastic Bottle and Tumblers</li></a>
-							<a href="#"><li>Pillow</li></a>
-							<a href="#"><li>Speakers</li></a>
-							<a href="#"><li>Power Bank</li></a>
-							<a href="#"><li>Power Bank</li></a>
-							<a href="#"><li>Power Bank</li></a>
-							<a href="#"><li>Power Bank</li></a>
-							<a href="#"><li>Power Bank</li></a>
+							<li><img src="assets/images/headsets.jpg" class="cat-gallery" alt="Images1" id="imageReplace1"/></li>
+							<li><img src="assets/images/universal-plug.jpg" class="cat-gallery" alt="Images2" id="imageReplace2"/></li>
+							<li><img src="assets/images/armband-cellphone-case.jpg" class="cat-gallery" alt="Images3" id="imageReplace3"/></li>
+							<li><img src="assets/images/usb.jpg" class="cat-gallery" alt="Images3" id="imageReplace4"/></li>
+							<li><img src="assets/images/jogging-belt-bag.jpg" class="cat-gallery" alt="Images3" id="imageReplace5"/></li>
+							<li><img src="assets/images/apple-otg.jpg" class="cat-gallery" alt="Images3" id="imageReplace6"/></li>
+							<li><img src="assets/images/car-cp-holder.jpg" class="cat-gallery" alt="Images3" id="imageReplace7"/></li>
+							<li><img src="assets/images/waterproof-cp-case.jpg" class="cat-gallery" alt="Images3" id="imageReplace8"/></li>
+							<li><img src="assets/images/selfie-stick.jpg" class="cat-gallery" alt="Images3" id="imageReplace9"/></li>
+							<li><img src="assets/images/apple-earpod.jpg" class="cat-gallery" alt="Images3" id="imageReplace10"/></li>
+
 						</ul>
 
-				<script type="text/javascript">
-					$('#Accesories').click(function() {
-					  $('img').html('Marvin');
-					});
-
-					$('#kittens').click(function() {
-					  $('div').html('Kittens');
-					});
-
-
-					$('#aardvark').click(function() {
-					  $('div').html('#ny');
-					});
-				</script>
-
 					</div>
-
-					<div class="column-here-4 column-here-s-4 center-categories">
-
-						<img id="ny" src="assets/images/ny.jpg" alt="...">
-
-
-
-					</div>
-
-
 
 					</div>
 
@@ -331,21 +462,6 @@
 				</div> <!-- end of row -->
 
 		</div> <!-- end of footer -->
-
-
-							  			 	  
-
-<!-- <div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
- 		<img src="assets/images/chicago.jpg" alt="..." class="img-thumbnail">
-  </div>
-</div> -->
-
-<!-- <h2>Fullscreen Overlay Nav Example</h2>
-<p>Click on the element below to open the fullscreen overlay navigation menu.</p>
-<p>In this example, the navigation menu will slide in, from left to right:</p>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
 
 <script>
 function openNav() {
