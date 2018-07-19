@@ -51,41 +51,39 @@ body{
 
 /* For desktop: __________________________________________________________________________________________*/
 
-@media only screen and (min-width: 961px) and (max-width: 2000px){
+@media only screen and (min-width: 768px) and (max-width: 2000px){
 
 /* For desktop: __________________________________________________________________________________________*/
 
 .header{
 
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #231F20;
     height: 170px;
 
 }
 
-.center-header{
-    background-image: url(../images/paint_splatter_by_wmaltbyart-d5whaev.jpg);
-}
 .row-top{
     height: 50px;
     color: white;
 }
 
 .slogan, .slogan > p{
-    text-align: right;
+    text-align: left;
+    font-size: 10px;
 }
 .contact-us, .contact-us > p{
-    text-align: center;
+    text-align: left;
+    font-size: 13px;
 
 }
 
 .address-details, .address-details > p{
     text-align: left;
+    font-size: 13px;
 }    
 
 .address{
-    
+    font-size: 13px;
 }
 
 .navbar-center{
@@ -106,7 +104,7 @@ background-color: grey;
 .navigation > ul > li > a{
 text-decoration: none;
 color: white;
-font-size: 20px;
+font-size: 15px;
 
 }
 
@@ -137,13 +135,29 @@ font-size: 20px;
 
 }
 
-.logo > img{
+.logo > a > img{
     height: 100px;
     float: right;
     /*margin-right: 15px;*/
     /*margin-top: 10px;*/
 
+}
 
+.navbar > img{
+    height: 50px;
+    float: right;
+    /*margin-right: 15px;*/
+    /*margin-top: 10px;*/
+
+}
+
+.navbar{
+    background-color: #231F20;
+}
+
+.collapse > ul{
+    text-align: center;
+   
 }
 
 .border-line{
@@ -156,19 +170,21 @@ font-size: 20px;
 /*container-demo------------------------------------------------------------------------------*/
 
 
-
 .container-demo{
-    /*margin-top: 20px;*/
-/*    margin-left: 200px;
-    margin-right: 200px;*/
 
     background-color: #D1EDF4;
+    height: 700px;
 
-     
 }
 
+.container-demo > .row {
+    overflow: hidden;
+    width: 100%;
+}
+
+
 .second-container > h1{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: bolder;
     font-family: 'Barrio', cursive;
 }
@@ -182,7 +198,7 @@ font-size: 20px;
 .second-container > h1, p{
     text-align: left;
     margin-top: 50px;
-
+    position: relative;
 
 }
 
@@ -197,8 +213,14 @@ font-size: 20px;
 
 
 .start-order{
-
+    
     padding-top: 100px;
+    z-index: 1;
+}
+
+
+.carousel{
+    /*margin-right: 30px;*/
 }
 
   /* Make the image fully responsive */
@@ -207,7 +229,7 @@ font-size: 20px;
       margin-top: 50px;
       margin-bottom: 50px;
       width: 100%;
-      height: 500px;
+      height: 380px;
       border-radius: 50px;
 }
 
@@ -219,6 +241,15 @@ font-size: 20px;
 
 }
 
+#black-splash{
+    height: 300px;
+
+    top: 700px;
+    left: 10px;
+    position: absolute;
+    
+}
+
 /*container-items------------------------------------------------------------------------------*/
 
 .container-items{
@@ -227,6 +258,10 @@ font-size: 20px;
     padding: 0;
     min-height: 10px;
     background-color: #EC8382;
+}
+
+.container-items > .row{
+    margin-right: 0;
 }
 
 .work-flow{
@@ -242,9 +277,56 @@ font-size: 20px;
 
 }
 
-.card{
-margin:10px 10px 10px 10px;
+.third-con-item > .card > img{
+    width: 100%
+
 }
+
+.fourth-con-item > .card > img{
+    width: 100%
+
+}
+
+.fifth-con-item > .card > img{
+    width: 100%
+
+}
+
+.card{
+margin:5px 5px 5px 5px;
+/*background-color: #EC8382;*/
+
+}
+
+.card > img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#z-splash{
+
+  
+    z-index: 2;
+
+     height: 300px;
+
+    top: 700px;
+    left: 900px;
+    position: absolute;
+}
+
+#color-splash{
+
+
+    height: 150px;
+
+    top: 50px;
+    left: 1000px;
+    position: absolute;
+}
+
+
 /*categories------------------------------------------------------------------------------*/
 
 .categories{
@@ -254,122 +336,9 @@ margin:10px 10px 10px 10px;
     background-color: #F9EBA5;
 }
 
-.categories-items{
-    min-height: 100px;
-    
-    /*margin: 10px 10px 10px 10px;*/
-    margin-bottom: 0;
-}
-.categories-items > .left-categories > ul > a > li{
-    list-style: none;
-    margin-left: 10px;
-    border-bottom: 1px solid rgba(220,222,227,.7);
-
-
-}
-
-.left-categories{
-    min-height: 100%;
-}
-.left-categories > ul > a{
-    
-
-}
-
-.categories-items > .center-categories > ul > a > li{
-    list-style: none;
-    margin-left: 10px;
-    border-bottom: 1px solid rgba(220,222,227,.7);
-
-}
-
-.center-categories > .caption > img{
-    height: 100%;
-    width: 100%;
-}
-
-.categories-items > ul {
-    width: 200px;
-    padding: 20px;
-}
-
-.categories-items a {
-    background-color: white;
-    color: black;
-    display: block;
-    padding: 5px;
-    text-decoration: none;
-
-}
-
-.categories-items a:hover {
-    background-color: #ccc;
-    text-decoration: none;
-}
-
-.categories-items a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.right-categories > ul > li{
-    list-style: none;
-    margin: 0 auto;
-    border-bottom: 1px solid rgba(220,222,227,.7);
-    border-top: 1px solid rgba(220,222,227,.7);
-    border-left: 1px solid rgba(220,222,227,.7);
-    border-right: 1px solid rgba(220,222,227,.7);
-
-    display: inline-block;
-    padding: 0;
-
-}
-
-.right-categories > ul > li > img{
-    height: 160px;
-    width: 150px;
-    padding: 0;
-    margin: 10px;
-}
-
-
-
-.center-categories{
-
-    height: 390px;
-    width: 70%;
-    position: relative;
+.contact{
     text-align: center;
-    color: white;
-    font-size: 50px;
-}
-
-
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-
-.center-categories > .caption > img{
-     max-width: 100%;
-     min-height: 390px;
-
-}
-.caption:after{
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-background: -webkit-linear-gradient(280deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
-background: -o-linear-gradient(280deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
-background: -ms-linear-gradient(280deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
-background: -moz-linear-gradient(280deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
-background: linear-gradient(170deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 0.36) 35%, rgba(59, 59, 59, 0.1) 50%, rgba(255, 255, 255, 0.99) 100%);
-
-
+    padding: 20px;
 }
 
 
@@ -382,9 +351,7 @@ background: linear-gradient(170deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 
     background-image: url(../images/paint_splatter_by_wmaltbyart-d5whaev.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 10px;
-
-
+    
 }
 
 
@@ -406,3 +373,125 @@ background: linear-gradient(170deg, rgba(171, 186, 171, 0.99) 0%, rgba(0, 0, 0, 
 
 
 
+/*About-Page------------------------------------------------------------------------------------*/
+
+
+
+.container-demo-about{
+
+    background-color: #D1EDF4;
+    min-height: 1200px;
+    width: 100%;
+
+}
+
+.left-container-about{
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+.right-container-about{
+    margin-right: 150px;
+    margin-top: 100px;
+
+}
+
+.right-container-about > iframe{
+   height: 350px;
+   width: 450px;
+
+}
+
+.container-demo > .row-about {
+    /*overflow: hidden;*/
+    width: 100%;
+}
+
+.row-about{
+    /*clear: both;*/
+    margin: 0 auto;
+}
+
+
+.second-container > h1{
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'Barrio', cursive;
+}
+
+.second-container{
+    height: 300px;
+    background-color: #D1EDF4;
+    
+}
+
+.second-container > h1, p{
+    text-align: left;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.right-container{
+
+    
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.start-order{
+    
+    padding-top: 100px;
+    z-index: 1;
+}
+
+
+.carousel{
+    /*margin-right: 30px;*/
+}
+
+  /* Make the image fully responsive */
+  .carousel-inner img {
+
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+      height: 380px;
+      border-radius: 50px;
+}
+
+
+.img-slides{
+       height: 100%;
+       width: 100%; 
+
+
+}
+
+#black-splash{
+    height: 300px;
+
+    top: 700px;
+    left: 10px;
+    position: absolute;
+    
+}
+
+
+.about-carousel{
+    /*margin-right: 30px;*/
+}
+
+  /* Make the image fully responsive */
+  .about-carousel img {
+
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+      height: 500px;
+      /*border-radius: 50px;*/
+}
