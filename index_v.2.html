@@ -9,6 +9,8 @@
 	  <!-- font awesome -->
 	  <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
 
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
 	  <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
@@ -19,112 +21,48 @@
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
+	  <!-- for hover effect -->
+	  <script src="js/modernizr.custom.js"></script>
+
+
 	<title></title>
 </head>
 
 <body>
-		<nav class="header">
 
-			<div class="row-top">
-				<div class="column-here-5 column-here-s-3 left-row-top">
-					  <p>Follow Us on  
-					  	<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" style="font-size:18px;color:blue"></i></a>
 
-					  	<a href="https://www.youtube.com" target="_blank"><i class="fa fa-instagram" style="font-size:18px;color:red"></i></a>
-
-					  	<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" style="font-size:18px;color:blue"></i></a>
-
-					  </p>
-				</div>
-
-<!-- 				<div class="column-here-4 column-here-s-3 center-row-top">
-					  
-
-				</div> -->
-
-				<div class="column-here-6 column-here-s-3 right-row-top">
-
-						<div class="row">
-
-						<div class="column-here-4 column-here-s-3 slogan">
-									<h6>Z Trends Giveaways</h6>
-									<p>Your partner in customizing your giveaways.</p>				
-							</div>
-							<div class="column-here-4 column-here-s-3 contact">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			
 								
-								<div class="contact-us">
-									<p><i class="fa fa-phone" aria-hidden="true"></i> (02) 477-3084</p>
-								</div>							
-				
-							</div>
-
-							<div class="column-here-4 column-here-s-3 address">
-								<div class="address-details">	
-										<p><i class="fa fa-map-marker" aria-hidden="true"></i> 698 tanguile st san jose
-											Rodriguez, Rizal 1860</p>					
-								</div>
-							</div>
-
-						</div>
-
-				</div>
-				</div>
-
-
-			</div> <!-- end of row -->
-
-			<div class="row-below">
-				<div class="column-here-3 column-here-s-4">
-
 					<div class="logo">
 						<a href="index_v.2.html"><img src="assets/images/ztrends-logo.jpg"></a>
 
+
 					</div>
+					  <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarNav">
+					   
+					   	<ul class="navbar-nav" id="horizontal-list">
+					      <li class="nav-item active">
+					        <a class="nav-link text-white" href="about.html">About Us <span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link text-white" href="product-services.html">Products and Services</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link text-white" href="gallery.html">Gallery</a>
+					      </li>						      
 
-				</div>
-				
-				<div class="column-here-6 column-here-s-5 navbar-center">
-
-						<nav class="navbar navbar-expand-lg navbar-light">
-							
-							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							    <span class="navbar-toggler-icon"></span>
-							  </button>
-							  <div class="collapse navbar-collapse" id="navbarNav">
-							    <ul class="navbar-nav">
-							      <li class="nav-item active">
-							        <a class="nav-link text-white" href="about.html">About Us <span class="sr-only">(current)</span></a>
-							      </li>
-							      <li class="nav-item">
-							        <a class="nav-link text-white" href="#">Products and Services</a>
-							      </li>
-							      <li class="nav-item">
-							        <a class="nav-link text-white" href="#">Gallery</a>
-							      </li>
-							      <li class="nav-item">
-							        <a class="nav-link text-white" href="#">Order Online</a>
-							      </li>							      
-
-							      <li class="nav-item">
-							        <a class="nav-link text-white" href="#">Contact Us</a>
-							      </li>
-							    </ul>
-							  </div>
-							</nav>
+					      <li class="nav-item">
+					        <a class="nav-link text-white" href="contact.html">Contact Us</a>
+					      </li>
+					    </ul>
+					  </div>
 
 
-				</div>
-
-
-				<div class="column-here-3 column-here-s-5">
-
-					
-
-				</div>
-
-			</div> <!-- end of row -->
-
-		</nav> <!-- end of nav -->
+		</nav>
 
 
 
@@ -147,7 +85,7 @@
 						<button type="button" class="btn btn-primary btn-lg">Online Catalog</button>
 						<button type="button" class="btn btn-primary btn-lg">Order Online</button>
 
-
+						<img class="pink-splash" src="assets/images/pink-splash.png">
 					</div>
 
 					<img id="black-splash" src="assets/images/blac.png">
@@ -157,7 +95,8 @@
 				<div class="column-here-5 column-here-s-4 third-container">
 
 					<div id="carouselExampleFade" class="carousel slide carousel-fade shadow p-3 mb-5" data-ride="carousel">
-					  <div class="carousel-inner">
+					  
+					  <div class="carousel-inner carousel-landingpage">
 					    <div class="carousel-item active">
 					      <img class="d-block w-100" src="assets/images/pepper-lunch-shirt.jpg" alt="Pepper Lunch Sales Rally">
 					    </div>
@@ -172,8 +111,6 @@
 					      <img class="d-block w-100" src="assets/images/engraved-parker-pen.jpg" alt="Cognizant ID Lace">
 					    </div>
 					  </div>
-
-
 					  
 					  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
 					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -189,6 +126,9 @@
 
 				</div>
 
+
+
+
 				<div class="column-here-0 column-here-s-4 right-container">
 
 				</div>
@@ -198,105 +138,168 @@
 
 		<div class="border-line"></div>
 
+
+
 		<div class="container-items">
 
 			<div class="work-flow">
 				<h2>HERE'S HOW WE DO THE WORK</h2>
 			</div>
 			<div class="row">
-				<div class="column-here-3 column-here-s-4 first-con-item">
+
+				<div class="column-here-4 column-here-s-4 second-con-item">
 					
-
-				</div>
-
-				<div class="column-here-2 column-here-s-4 second-con-item">
-					
-					<div class="card shadow p-3 mb-5 bg-transparent">
-					  <img src="assets/images/choose.png">
-					  <div class="card-body shadow p-3 mb-5">
-					    <p class="card-text">Browse catalog or bring your own.</p>
-					  </div>
-					</div>
-
-
-				</div>
-
-				<div class="column-here-2 column-here-s-4 third-con-item">
-					
-					<div class="card shadow p-3 mb-5 bg-transparent">
-					  <img src="assets/images/discuss.jpg">
-					  <div class="card-body shadow p-3 mb-5">
-					    <p class="card-text">Tell us the design you want.</p>
-					  </div>
-					</div>
-
-					
-				</div>
-
-				<div class="column-here-2 column-here-s-4 fourth-con-item">
-					
-					<div class="card shadow p-3 mb-5 bg-transparent">
-					  <img src="assets/images/qua.png">
-					  <div class="card-body shadow p-3 mb-5">
-					    <p class="card-text">The quantity of your order.</p>
-					  </div>
-
-
-					</div>
-
-					
-				</div>
-
-				<div class="column-here-3 column-here-s-4 fifth-container">
+					<ul class="grid cs-style-5">
+						
+						<li>
+							
+							<figure class="shadow p-3 mb-5">
+						
+								<img src="assets/images/browse.jpg" alt="img04">
+									
+									<figcaption>
+										<h3>BROWSE</h3>
+										<span>Choose an item from our catalog or bring your own.</span>
+										<h2>Step 1</h2>
+									</figcaption>
 	
+							</figure>
+							
+						</li>
+
+					</ul>
+
 				</div>
+
+				<div class="column-here-4 column-here-s-4 third-con-item">
+					
+
+					<ul class="grid cs-style-5">
+						<li>
+							
+							<figure class="shadow p-3 mb-5">
+								
+								<img src="assets/images/discuss2.jpg" alt="img04">
+									
+									<figcaption>
+										<h3>DISCUSS</h3>
+										<span>Tell us the design you want or you can design it online.</span>
+										<h2>Step 2</h2>
+									</figcaption>
+		
+							</figure>
+							
+						</li>
+
+					</ul>
+				</div>
+
+				<div class="column-here-4 column-here-s-4 fourth-con-item">
+					
+					<ul class="grid cs-style-5">
+						<li>
+							
+							<figure class="shadow p-3 mb-5">
+								
+								<img src="assets/images/quantity.jpg" alt="img04">
+									
+									<figcaption>
+										<h3>QUANTITY</h3>
+										<span>Determine the number of items to be produced.</span>
+										<h2>Step 3</h2>
+									</figcaption>
+								
+							</figure>
+							
+						</li>
+
+					</ul>
+
+
+
+					
+				</div>
+
 
 			</div>
 			
+
 			<div class="row">
-				<div class="column-here-3 column-here-s-4 first-con-item">
-					
+
+				<div class="column-here-4 column-here-s-4 second-con-item">
+				
+
+						<ul class="grid cs-style-5">
+							<li>
+								
+								<figure class="shadow p-3 mb-5">
+									
+									<img src="assets/images/downpayment.jpg" alt="img04">
+										
+										<figcaption>
+											<h3>DOWN PAYMENT</h3>
+											<span>Your downpayment will fuel us to go and work promptly.</span>
+											<!-- <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a> -->
+											<h2>Step 4</h2>
+										</figcaption>
+									
+								</figure>
+								
+							</li>
+
+						</ul>
 
 				</div>
 
-				<div class="column-here-2 column-here-s-4 second-con-item">
-					
-					<div class="card shadow p-3 mb-5 bg-transparent">
-					  <img src="assets/images/downpayment.png">
-					  <div class="card-body shadow p-3 mb-5">
-					    <p class="card-text">Downpayment & Proof Approval</p>
-					  </div>
-					</div>
 
+				<div class="column-here-4 column-here-s-4 third-con-item">
+					
+
+						<ul class="grid cs-style-5">
+							<li>
+								
+								<figure class="shadow p-3 mb-5">
+									
+									<img src="assets/images/production.jpg" alt="img04">
+										
+										<figcaption>
+											<h3>PRODUCTION</h3>
+											<span>This is your waiting period. But, no worries we work fast and with quality in mind.</span>
+											<!-- <a href="http://dribbble.com/shots/1116685-Settings">Take a look</a> -->
+											<h2>Step 5</h2>
+										</figcaption>
+									
+								</figure>
+								
+							</li>
+
+						</ul>
 
 				</div>
 
-				<div class="column-here-2 column-here-s-4 third-con-item">
+				<div class="column-here-4 column-here-s-4 fourth-con-item">
 					
-					<div class="card shadow p-3 mb-5 bg-transparent">
-					  <img src="assets/images/order-processing.png">
-					  <div class="card-body shadow p-3 mb-5">
-					    <p class="card-text">Processing your order</p>
-					  </div>
-					</div>
 
+
+						<ul class="grid cs-style-5">
+							<li>
+								
+								<figure class="shadow p-3 mb-5">
+									
+									<img src="assets/images/complete-order.jpg" alt="img04">
+										
+										<figcaption>
+											<h3>ORDERS COMPLETE</h3>
+											<span>We hand you over your order and your final payment in exchange. </span>
+											<h2>Step 6</h2>
+										</figcaption>
+									
+								</figure>
+								
+							</li>
+
+						</ul>
 					
-				</div>
-
-				<div class="column-here-2 column-here-s-4 fourth-con-item">
-					
-					<div class="card shadow p-3 mb-5 bg-transparent">
-					  <img src="assets/images/task-complete.png">
-					  <div class="card-body shadow p-3 mb-5">
-					    <p class="card-text">Order Complete & Final Payment</p>
-					  </div>
-					</div>
-
-					
-				</div>
-
-				<div class="column-here-3 column-here-s-4 fifth-con-item">
-	
 				</div>
 
 			</div>
@@ -305,22 +308,15 @@
 
 		<div class="border-line"></div>
 
-		<div class="categories">
+		<div class="contact-section">
 
-			<div class="contact">
-				<h5>CONTACT US<span class="border-cat"></span></h5>
-				
-			</div>
+				<div class="row">
+					<div class="column-here-4 column-here-s-4 left-contacts">
 
-				<div class="row main-items">
-					<div class="column-here-2 column-here-s-4 left-main">
+						<h2>LET US KNOW HOW CAN WE HELP YOU</h2>
 
-					</div>
-
-					<div class="column-here-8 column-here-s-4 center-main">
-
-								<form>
-								  <div class="form-row">
+								<form class="shadow p-3 mb-5 bg-transparent">
+								  <div class="form-row ">
 								    <div class="col">
 
 								      <label for="fullname">Full Name</label>
@@ -342,8 +338,8 @@
 									    </div>
 
 									    <div class="col">
-									    	<label for="contactnumber">How Can We Help?</label>
-										    <select class="form-control form-control">
+									    	<label for="inquiry-type">Type of Inquiry</label>
+										    <select id="inquiry-type" class="form-control form-control">
 											  <option>Small select</option>
 											</select>
 										</div>
@@ -351,19 +347,81 @@
 
 									<div class="form-group">
 									    <label for="message">Message</label>
-									    <textarea class="form-control" id="message" rows="3" placeholder="Tell us what you need."></textarea>
+									    <textarea class="form-control" id="message" rows="8" placeholder="Tell us what you need."></textarea>
 									</div>
 
 								</form>
 
 
+					</div>
+
+
+					<div class="column-here-5 column-here-s-4 right-reviews">
+
+						<h2>REVIEWS</h2>
+
+							<div class="card shadow p-3 mb-5 bg-transparent">
+								<div class="row">
+
+								<div class="column-here-2 column-here-s-4 review-avatar">
+
+									<div class="avatar"></div>	
+								
+								</div>
+								<div class="column-here-6 column-here-s-4 review-details">
+									    <h5 class="card-title">Rouie Villanueva</h5>
+									    <h6 class="card-subtitle mb-2 text-muted">Artist</h6>
+									    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									    <a href="#/" class="card-link">Card link</a>
+									    <a href="#/" class="card-link">Another link</a>
+
+							  	</div>
+							  </div>
+							</div>
+
+							<div class="card card-2 shadow p-3 mb-5 bg-transparent">
+
+								<div class="row">
+
+								<div class="column-here-2 column-here-s-4 review-avatar">
+
+									<div class="avatar"></div>	
+								
+								</div>
+								<div class="column-here-6 column-here-s-4 review-details">
+									    <h5 class="card-title">Card title</h5>
+									    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+									    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+									    <a href="#/" class="card-link">Card link</a>
+									    <a href="#/" class="card-link">Another link</a>
+
+							  	</div>
+							  </div>
+							</div>
+
+							<div class="page-numbers" aria-label="Reviews and Feedbacks">
+
+								  <ul class="pagination">
+								    <li class="page-item disabled">
+								      <span class="page-link">Previous</span>
+								    </li>
+								    <li class="page-item"><a class="page-link" href="#/">1</a></li>
+								    <li class="page-item active">
+								      <span class="page-link">
+								        2
+								        <span class="sr-only">(current)</span>
+								      </span>
+								    </li>
+								    <li class="page-item"><a class="page-link" href="#/">3</a></li>
+								    <li class="page-item">
+								      <a class="page-link" href="#/">Next</a>
+								    </li>
+								  </ul>
+							</div>
+
 
 					</div>
 
-							<div class="column-here-2 column-here-s-4 item-pix">
-
-								<!-- <img id="z-splash" src="assets/images/z.png"> -->
-							</div>
 
 						</div> <!-- end of row thumbnails -->
 
@@ -374,23 +432,81 @@
 
 		</div> <!-- end of categories -->
 
-		<div class="border-line"></div>
+		<div class="border-line">
+
+
+		</div>
 
 		<div class="footer">
 
+
 				<div class="row">
-					<div class="column-here-2 column-here-s-4 left-main">
-		
+					<div class="column-here-2 column-here-s-4 left-footer-1">
+
+						<div class="career">
+								<h5>WORK IN Z TRENDS</a></h5>
+							<ul>
+								<li><a href="">Company Culture</a></li>
+								<li><a href="">Career Development</a></li>
+								<li><a href="">Open Positions</a></li>
+							</ul>
+						</div>
+						
 					</div>
 
-					<div class="column-here-8 column-here-s-4 center-main">
+					<div class="column-here-2 column-here-s-4 left-footer-2">
 
-
-
-
+						<div class="customer-service">
+								<h5>CUSTOMER CARE</h5>
+							<ul>
+								<li><a href="">Help Center</a></li>
+								<li><a href="">How To Buy</a></li>
+								<li><a href="">Shipping & Delivery</a></li>
+								<li><a href="">Internation Product Policy</a></li>
+								<li><a href="">How To Return</a></li>
+							</ul>
+						</div>
+						
 					</div>
 
-					<div class="column-here-2 column-here-s-4 right-main">
+					<div class="column-here-2 column-here-s-4 left-footer-3">
+
+						<div class="z-trends">
+								<h5>Z Trends</h5>
+							<ul>
+								<li><a href="">Affiliate Program</a></li>
+								<li><a href="">Terms & Conditions</a></li>
+								<li><a href="">Privacy Policy</a></li>
+								<li><a href="">Press & Media</a></li>
+								<li><a href="">Popular Pages</a></li>
+								<li><a href="">Campaign Terms & Conditions</a></li>
+							</ul>
+						</div>
+						
+					</div>
+
+					<div class="column-here-2 column-here-s-4 center-footer">
+
+
+						<ul>
+							<li>
+								<a href="https://www.facebook.com/ztrendsgiveaways/" target="_blank"><i class="fab fa-facebook-f"></i>
+								</a>
+							</li>							
+
+							<li>
+								<a href="#/" target="_blank"><i class="fab fa-instagram"></i></a>
+							</li>							
+
+							<li>
+								<a href="#/" target="_blank"><i class="fab fa-twitter"></i></a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="column-here-2 column-here-s-4 right-footer">
+						
+						<img class="red-splash" src="assets/images/color-splash.png">
 
 					</div>
 
@@ -407,6 +523,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+    <script src="js/toucheffects.js"></script>
 
 </body>
 </html>
