@@ -76,6 +76,10 @@ font-size: 15px;
     position: absolute;
 }
 
+
+.back-to-top{
+    display: inline;
+}
                                                                                                                                                                                                                                                                                                                         
 /*container-demo------------------------------------------------------------------------------*/
 
@@ -419,6 +423,14 @@ figure > img {
     margin-left: 30px;
 }
 
+.right-reviews > h2{
+    text-align: center;
+}
+
+.review-details > h5, .review-details > p{
+    text-align: center;
+}
+
 /*border-line-------------------------------------------------------------------------*/
 
 
@@ -438,6 +450,10 @@ figure > img {
     background-repeat: no-repeat;
     position: relative;
     color: white;
+}
+
+.footer h3 p h5 {
+    text-align: center;
 }
 
 .left-footer-1{
@@ -802,6 +818,9 @@ figure > img {
     /*background-color: red;*/
 }
 
+.gallery-row-2 > h2, .gallery-row-1 > h2{
+    text-align: center;
+}
 .gal-image{
 
     height: 200px;
@@ -901,6 +920,10 @@ font-size: 15px;
     position: absolute;
 }
 
+
+.back-to-top{
+    display: inline;
+}
                                                                                                                                                                                                                                                                                                                         
 /*container-demo------------------------------------------------------------------------------*/
 
@@ -1237,7 +1260,15 @@ figure > img {
 
 .page-numbers{
     margin-top: 15px;
-    margin-left: 30px;
+    margin: auto;
+}
+
+.right-reviews > h2{
+    text-align: center;
+}
+
+.review-details > h5{
+    text-align: center;
 }
 
 /*border-line-------------------------------------------------------------------------*/
@@ -1265,6 +1296,11 @@ figure > img {
     /*margin-left: 170px;*/
     margin-top: 20px;
     color: white;
+
+}
+
+.career > h5, .customer-service > h5, .z-trends > h5, .disclaimer-footer > p{
+    text-align: center;
 
 }
 
@@ -1317,7 +1353,7 @@ figure > img {
     /*background-color: lor: rgb(66, 103, 178);*/
 }
 
-.center-footer > ul li a .fab{
+.center-footer > p h3 ul li a .fab{
     font-size: 30px;
     color: #4267b2;
     /*line-height: 50px;*/

@@ -32,7 +32,7 @@
 </head>
 
 <body>
-
+ <section id="home"></section>
 		<nav id="navtop" class="navbar navbar-expand-lg navbar-light">
 	
 					<div class="logo">
@@ -497,12 +497,12 @@
 
 					</div>
 
-					<div class="column-here-2 column-here-s-12 dislaimer-footer">
+					<div class="column-here-2 column-here-s-12 disclaimer-footer">
 						<p><strong>Disclaimer:</strong> This website don't have any intention for copyright infringement. Images in this website are from Pexels, Unsplash, Dribble and Google Images. Photos are used for training purposes and not to commercialize nor profit.</p>
 
 						<p>Designed and Developed by: J. Marvin Ramoda</p>
 
-					<a href="#navtop" class="back-to-top" style="display: inline;">
+					<a href="#home" class="back-to-top">
  
 						<i class="fa fa-arrow-circle-up"></i>
 					 
@@ -533,44 +533,34 @@
     <script src="js/toucheffects.js"></script>
 
 
-    		<script>
- 
-			jQuery(document).ready(function() {
-			 
-			var offset = 250;
-			 
-			var duration = 300;
-			 
-			jQuery(window).scroll(function() {
-			 
-			if (jQuery(this).scrollTop() > offset) {
-			 
-			jQuery('.back-to-top').fadeIn(duration);
-			 
-			} else {
-			 
-			jQuery('.back-to-top').fadeOut(duration);
-			 
-			}
-			 
-			});
-			 
-			 
-			 
-			jQuery('.back-to-top').click(function(event) {
-			 
-			event.preventDefault();
-			 
-			jQuery('html, body').animate({scrollTop: 0}, duration);
-			 
-			return false;
-			 
-			})
-			 
-			});
-			 
-		</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
 
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		});
+		</script>
 
 </body>
 </html>

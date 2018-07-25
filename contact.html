@@ -116,6 +116,14 @@
 		</div> <!-- end of container-demo -->
 
 
+		<a href="#home" class="back-to-top">
+
+			<i class="fa fa-arrow-circle-up"></i>
+		 
+		</a>
+
+
+
 			
 		<div class="footer">
 
@@ -188,7 +196,7 @@
 
 					</div>
 
-					<div class="column-here-2 column-here-s-4 center-footer">
+					<div class="column-here-2 column-here-s-4 disclaimer-footer">
 						<p><strong>Disclaimer:</strong> This website don't have any intention for copyright infringement. Images in this website are from Pexels, Unsplash, Dribble and Google Images. Photos are used for training purposes and not to commercialize nor profit.</p>
 
 						<p>Designed and Developed by: J. Marvin Ramoda</p>
@@ -210,6 +218,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
 
+    	<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+		   
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		});
+		</script>
 
 
 </body>
